@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">菜鸟微博</string>
+    <string name="action_settings">Settings</string>
+    <string name="second_activity">第二个 activity</string>
+    <string name="button">Button</string>
+    <string name="title_first">First</string>
+    <string name="title_sub_first">Sub</string>
+    <string name="empty_string">null</string>
+    <string name="recommend">推荐</string>
+    <string name="newest">最新</string>
+    <string name="lbl_home">首页</string>
+    <string name="lbl_message">信息</string>
+    <string name="lbl_profile">我的</string>
+    <string name="lbl_landing">菜鸟窝</string>
+    <string name="lbl_demo">测试</string>
+    <string name="hint_please_input_content">请输入文本内容</string>
+    <string name="lbl_post">发送</string>
+    <string name="lbl_repost">转发微博</string>
+    <string name="lbl_comment">评论微博</string>
+    <string name="at_me">\@我的</string>
+    <string name="lbl_subscription">订阅信息</string>
+    <string name="lbl_like">赞</string>
+    <string name="lbl_my_weibo">我的微博</string>
+    <string name="lbl_my_attention">我的关注</string>
+    <string name="lbl_my_fans">我的粉丝</string>
+    <string name="lbl_fav">我的收藏</string>
+    <string name="lbl_logout">退出登录</string>
+    <string name="title_weibo_detail">微博正文</string>
+</resources>

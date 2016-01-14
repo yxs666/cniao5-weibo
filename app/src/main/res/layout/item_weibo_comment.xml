@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_s">
+
+        <ImageView
+            android:id="@+id/ivHeader"
+            android:layout_width="@dimen/avatar_size"
+            android:layout_height="@dimen/avatar_size"
+            android:src="@mipmap/ic_place_holder"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_s"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvUserName"
+                style="@style/tv_m_grey_sl"
+                android:textColor="@color/cw_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/empty_string"/>
+
+            <TextView
+                android:id="@+id/tvTime"
+                style="@style/tv_s_grey_sl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvUserName"
+                android:text="@string/empty_string"/>
+            <TextView
+                android:layout_marginTop="@dimen/space_s"
+                android:layout_below="@+id/tvTime"
+                android:id="@+id/tvComment"
+                style="@style/tv_s_grey_sl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:text="@string/empty_string"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

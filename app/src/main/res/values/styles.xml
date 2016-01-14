@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/cw_white</item>
+        <item name="colorControlNormal">@color/cw_white</item>
+        <item name="titleTextColor">@color/cw_white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.FullScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="tv_m_yellow_sl">
+        <item name="android:textSize">@dimen/txt_m</item>
+        <item name="android:textColor">@color/cw_yellow</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="tv_m_blue_sl">
+        <item name="android:textSize">@dimen/txt_m</item>
+        <item name="android:textColor">@color/cw_blue</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="tv_m_grey_sl">
+        <item name="android:textSize">@dimen/txt_m</item>
+        <item name="android:textColor">@color/cw_grey</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="tv_s_grey_sl">
+        <item name="android:textSize">@dimen/txt_s</item>
+        <item name="android:textColor">@color/cw_grey</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="tv_m_black_sl">
+        <item name="android:textSize">@dimen/txt_m</item>
+        <item name="android:textColor">@color/cw_black</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="et_grey_hint_black_txt_bg_white">
+        <item name="android:textSize">@dimen/txt_m</item>
+        <item name="android:textColor">@color/cw_black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/cw_grey</item>
+        <item name="android:background">@color/cw_white</item>
+    </style>
+</resources>

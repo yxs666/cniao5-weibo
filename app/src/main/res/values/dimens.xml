@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <integer name="duration_anim">300</integer>
+
+
+
+    <dimen name="space_xs">4dip</dimen>
+    <dimen name="space_s">8dip</dimen>
+    <dimen name="space_m">16dip</dimen>
+    <dimen name="space_l">24dip</dimen>
+    <dimen name="space_xl">36dip</dimen>
+    <dimen name="space_xxl">48dip</dimen>
+    <dimen name="space_xxxl">72dip</dimen>
+
+    <dimen name="txt_xs">8sp</dimen>
+    <dimen name="txt_s">12sp</dimen>
+    <dimen name="txt_m">16sp</dimen>
+    <dimen name="txt_l">24sp</dimen>
+    <dimen name="txt_xl">32sp</dimen>
+
+    <dimen name="corner_common">4dp</dimen>
+
+    <dimen name="height_divider">1px</dimen>
+
+    <dimen name="avatar_size">48dp</dimen>
+    <dimen name="avatar_size_l">60dp</dimen>
+    <dimen name="avatar_size_xl">72dp</dimen>
+    <dimen name="avatar_size_xxl">96dp</dimen>
+</resources>

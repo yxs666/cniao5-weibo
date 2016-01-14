@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        android:title="@string/lbl_home"
+        android:id="@+id/action_one">
+    </item>
+    <item
+        android:orderInCategory="102"
+        app:showAsAction="never"
+        android:title="@string/lbl_profile"
+        android:id="@+id/action_two">
+    </item>
+</menu>

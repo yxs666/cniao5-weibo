@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <EditText
+        style="@style/et_grey_hint_black_txt_bg_white"
+        android:gravity="top|start"
+        android:hint="@string/hint_please_input_content"
+        android:singleLine="false"
+        android:minLines="5"
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
